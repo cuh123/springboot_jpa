@@ -1,0 +1,56 @@
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+bin/main/com/example/demo/JpaProjectApplication.class
+bin/main/com/example/demo/ServletInitializer.class
+bin/main/com/example/demo/config/QuerydslConfiguration.class
+bin/main/com/example/demo/controller/WebController.class
+bin/main/com/example/demo/domain/Academy$AcademyBuilder.class
+bin/main/com/example/demo/domain/Academy.class
+bin/main/com/example/demo/domain/Member.class
+bin/main/com/example/demo/domain/Member_1.class
+bin/main/com/example/demo/domain/Member_2.class
+bin/main/com/example/demo/domain/Phone.class
+bin/main/com/example/demo/domain/Phone_1.class
+bin/main/com/example/demo/domain/Phone_2.class
+bin/main/com/example/demo/repository/AcademyRepository.class
+bin/main/com/example/demo/repository/AcademyRepositorySupport.class
+bin/main/com/example/demo/repository/MemberRepository.class
+bin/main/com/example/demo/repository/MemberRepository_1.class
+bin/main/com/example/demo/repository/MemberRepository_2.class
+bin/main/com/example/demo/repository/PhoneRepository.class
+bin/main/com/example/demo/repository/PhoneRepository_1.class
+bin/main/com/example/demo/repository/PhoneRepository_2.class
+bin/main/com/example/demo/service/RepositoryService.class
+bin/main/com/example/demo/service/serviceImpl/RepositoryServiceImpl.class
+bin/
+src/main/generated/
